@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Inter;
+    background-color: #EBEBEB;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.position{
+    position: relative;
+}
+
+.name-city{
+    position: absolute;
+    z-index: 1;
+    top: 280px;
+    left: 490px;
+    padding: 7px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #4d4d4db2 ;
+}
+
+.glo{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 70px 40px 50px 40px;
+}
+
+.middle{
+    position: absolute;
+    top: 270px;
+    left: 720px;
+}
+
+.green{
+    position: absolute;
+    top: 370px;
+    left: 830px;
+    padding: 15px; 
+    border-radius: 999px;
+    border: 5px solid #E3E3E3;
+    background-color: #50F27B;
+    width: 1px;
+}
+
+.wi{
+    font-size: 36px;
+}
+
+.glo2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tra{
+    color: #939393;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-between;
+    color: #939393;
+}
+
+.tt{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.black{
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-weight: bold;
+}
+
+.progress{
+    padding: 4px;
+    background-color: #939393;
+    border-radius: 999px;
+}
+
+.bar{
+    text-align: center;
+    padding: 10px;
+    background-color: #E0A863;
+    width: 85%;
+    border-radius: 999px;
+}
+
+.mile{
+    padding-left: 64px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
